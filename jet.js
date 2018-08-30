@@ -1,8 +1,12 @@
-/* This is  the change */
-var Jet = function (color, size) {
-  this.color = color;
-  this.size = size;
+//add change to Jet
+class Jet {
+  constructor(color, size){
+    this.color = color;
+    this.size = size;
+  }
+  fly () {
+    console.log('whoosh!');
+  }
 }
 
 module.exports = Jet;
-
