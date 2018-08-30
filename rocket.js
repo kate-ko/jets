@@ -1,3 +1,4 @@
+// please add constructor
 class Rocket {
     constructor(){
 
